@@ -17,4 +17,7 @@ jobs:
             - name: Run code analyzer dotnet tool
               run: csharp_analyzer_IS
             - name: Run ls
-              run: ls
+              run: |
+                ls
+                echo: "Files in current directory:"
+                ls -al
