@@ -1,4 +1,5 @@
 name: Run Code Analyzer IS
+description: Action to install and run custom-made code analyzer dotnet tool.
 on:
     push:
         branches:
