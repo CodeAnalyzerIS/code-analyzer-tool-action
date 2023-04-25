@@ -13,5 +13,7 @@ runs:
             dotnet-version: '7.0'
         - name: Install code analyzer dotnet tool
           run: dotnet tool install --global CL-CodeAnalysisTest
+          shell: bash
         - name: Run code analyzer dotnet tool
           run: csharp_analyzer_IS
+          shell: bash
