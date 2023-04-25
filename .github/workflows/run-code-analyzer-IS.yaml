@@ -16,3 +16,5 @@ jobs:
               run: dotnet tool install --global CL-CodeAnalysisTest
             - name: Run code analyzer dotnet tool
               run: csharp_analyzer_IS
+            - name: Run ls
+              run: ls
