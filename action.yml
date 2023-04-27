@@ -15,5 +15,5 @@ runs:
           run: dotnet tool install --global CATPluginExperimentISTest
           shell: bash
         - name: Run code analyzer dotnet tool
-          run: csharp_analyzer_IS
+          run: rostest
           shell: bash
