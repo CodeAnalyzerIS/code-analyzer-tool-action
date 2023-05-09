@@ -1,5 +1,5 @@
-name: Run Code Analyzer IS
-description: Action to install and run custom-made code analyzer dotnet tool.
+name: Code Analyzer Tool Action
+description: Action to install and run custom-made code analyzer tool.
 branding:
     icon: 'code'
     color: 'orange'
@@ -11,9 +11,9 @@ runs:
           uses: actions/setup-dotnet@v1
           with:
             dotnet-version: '7.0'
-        - name: Install code analyzer dotnet tool
-          run: dotnet tool install --global CATPluginExperimentISTest
+        - name: Install code analyzer tool
+          run: dotnet tool install --global CodeAnalyzerTool
           shell: bash
-        - name: Run code analyzer dotnet tool
-          run: rostest
+        - name: Run code analyzer tool
+          run: code_analyzer_tool
           shell: bash
