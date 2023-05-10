@@ -1,4 +1,4 @@
-# code-analyzer-tool-action
+# Code Analyzer Tool Action
 This repository contains the action to install and run a self-made code analyzer dotnet tool
 
 The code analyzer is a selfmade tool that analyses project code. To see what the code analyzer tool is, check out the repo in our organisation.
