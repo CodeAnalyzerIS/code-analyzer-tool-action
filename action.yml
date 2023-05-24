@@ -15,5 +15,5 @@ runs:
           run: dotnet tool install --global CodeAnalyzerTool
           shell: bash
         - name: Run code analyzer tool
-          run: code_analyzer_tool
+          run: code-analyzer-tool
           shell: bash
